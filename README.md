@@ -106,21 +106,21 @@ Generic search for when wanting to browse via Type and Manufacturer. Parameters(
 
 #### JSON output on successful read
 
-Status	"Success"
-MSG	"Successfully found devices that met criteria!"
-Total	"64209"
-SN-0000a9c6c522b1b6b6d4567649a70955	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-0000a9c6c522b1b6b6d4567649a70955"
-SN-05eda68a9e9ac350b93127701daa26a2	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-05eda68a9e9ac350b93127701daa26a2"
-SN-05eeb133ca2d16b4a6f7930bca14f120	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-05eeb133ca2d16b4a6f7930bca14f120"
-SN-05eed85b453b54b72174dd6c58ed668a	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-05eed85b453b54b72174dd6c58ed668a"
-SN-11d9c3ba44ec769fa71f7ada106632f7	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11d9c3ba44ec769fa71f7ada106632f7"
-SN-11d9d1c37298427b9147ab1723c7377b	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11d9d1c37298427b9147ab1723c7377b"
-SN-11d9ddb890dcad0abc4a1dfbb6fea0b1	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11d9ddb890dcad0abc4a1dfbb6fea0b1"
-SN-11da0daa39c621476acc6a53cc6c61f9	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11da0daa39c621476acc6a53cc6c61f9"
-SN-11db10e012198449067109bcd7b8abae	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11db10e012198449067109bcd7b8abae"
-SN-11db134985c3b59f3cd99ce495b3374e	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11db134985c3b59f3cd99ce495b3374e"
-Next	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?SearchDevices&manu=HP&type=computer&pointer=459&direction=next"
-Previous	"Beginning of Search"
+Status	"Success"  
+MSG	"Successfully found devices that met criteria!"  
+Total	"64209"  
+SN-0000a9c6c522b1b6b6d4567649a70955	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-0000a9c6c522b1b6b6d4567649a70955"  
+SN-05eda68a9e9ac350b93127701daa26a2	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-05eda68a9e9ac350b93127701daa26a2"  
+SN-05eeb133ca2d16b4a6f7930bca14f120	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-05eeb133ca2d16b4a6f7930bca14f120"  
+SN-05eed85b453b54b72174dd6c58ed668a	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-05eed85b453b54b72174dd6c58ed668a"  
+SN-11d9c3ba44ec769fa71f7ada106632f7	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11d9c3ba44ec769fa71f7ada106632f7"  
+SN-11d9d1c37298427b9147ab1723c7377b	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11d9d1c37298427b9147ab1723c7377b"  
+SN-11d9ddb890dcad0abc4a1dfbb6fea0b1	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11d9ddb890dcad0abc4a1dfbb6fea0b1"  
+SN-11da0daa39c621476acc6a53cc6c61f9	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11da0daa39c621476acc6a53cc6c61f9"  
+SN-11db10e012198449067109bcd7b8abae	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11db10e012198449067109bcd7b8abae"  
+SN-11db134985c3b59f3cd99ce495b3374e	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-11db134985c3b59f3cd99ce495b3374e"  
+Next	"https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?SearchDevices&manu=HP&type=computer&pointer=459&direction=next"  
+Previous	"Beginning of Search"  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ### DeleteDevice
