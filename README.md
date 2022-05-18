@@ -130,5 +130,5 @@ Delete device specified. Parameters(sn=<Serial number of device to delete>). Ful
 
 #### JSON output on successful read
 
-Status	"Success"
+Status	"Success"  
 MSG	"Device with Serial Number: SN-fee5f6d1336b691267f1565328a526ca successfully deleted!"
