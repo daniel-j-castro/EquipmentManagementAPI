@@ -18,9 +18,9 @@ https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?CreateDeviceType
 Creates a device type. Parameters (type=<device to insert>) full example of endpoint https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?CreateDeviceType&type=desk
 
 #### JSON output on successful read
-Status	"Success"
-MSG	"Device Type desk successfully created!"
-Device Type	"desk"
+Status	"Success"  
+MSG	"Device Type desk successfully created!"  
+Device Type	"desk"  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ### CreateManufacturer
@@ -30,8 +30,8 @@ Creates a manufacturer. Parameters (manu=<manufacturer to insert>) full example 
 
 #### JSON output on successful read
 Status	"Success"
-MSG	"Manufacturer Toyota successfully created!"
-Manufacturer	"Toyota"
+MSG	"Manufacturer Toyota successfully created!"  
+Manufacturer	"Toyota"  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ### CreateDevice
@@ -40,11 +40,11 @@ https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?CreateDevice
 Creates a device. Parameters (sn=<Serial number for device (accepts with "SN-" and without)>,manu=<manufacturer for device>,type=<type for device>) full example of endpoint https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?CreateDevice&sn=SN-000010c0d5d5c8c69b924fb706d6a24p&manu=HP&type=computer
 
 #### JSON output on successful read
-Status	"Success"
-MSG	"Device SN-000010c0d5d5c8c69b924fb706d6a24p successfully created!"
-Serial Number	"SN-000010c0d5d5c8c69b924fb706d6a24p"
-Device Type	"computer"
-Manufacturer	"HP"
+Status	"Success"  
+MSG	"Device SN-000010c0d5d5c8c69b924fb706d6a24p successfully created!"  
+Serial Number	"SN-000010c0d5d5c8c69b924fb706d6a24p"  
+Device Type	"computer"  
+Manufacturer	"HP"  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ### ReadDevice
@@ -53,12 +53,12 @@ https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice
 Reads a device from the database. Parameters(sn=<Serial number of device to read>) full example of endpoint https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ReadDevice&sn=SN-000010c0d5d5c8c69b924fb706d6a24e
 #### JSON output on successful read
 
-Status	"Success"
-MSG	"Successfully read device SN-000010c0d5d5c8c69b924fb706d6a24e."
-Serial Number	"SN-000010c0d5d5c8c69b924fb706d6a24e"
-Manufacturer	"Chevorlet"
-Device Type	"vehicle"
-Active?	"Active"
+Status	"Success"  
+MSG	"Successfully read device SN-000010c0d5d5c8c69b924fb706d6a24e."  
+Serial Number	"SN-000010c0d5d5c8c69b924fb706d6a24e"  
+Manufacturer	"Chevorlet"  
+Device Type	"vehicle"  
+Active?	"Active"  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ### ViewDeviceFiles
@@ -67,11 +67,11 @@ https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ViewDeviceFiles
 Lists the file urls for devices with files. Parameters(sn=<Serial number of device to read files of>) full example of endpoint https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?ViewDeviceFiles&sn=SN-000023a0d5d5c8c69b924fb815d6a56a
 #### JSON output on successful read
 
-Status	"Success"
-MSG	"Successfully found file(s) for device SN-000023a0d5d5c8c69b924fb815d6a56a."
-test1.pdf	"https://ec2-44-202-167-169.compute-1.amazonaws.com/files/5000007/test1.pdf"
-test2.pdf	"https://ec2-44-202-167-169.compute-1.amazonaws.com/files/5000007/test2.pdf"
-test3.pdf	"https://ec2-44-202-167-169.compute-1.amazonaws.com/files/5000007/test3.pdf"
+Status	"Success"  
+MSG	"Successfully found file(s) for device SN-000023a0d5d5c8c69b924fb815d6a56a."  
+test1.pdf	"https://ec2-44-202-167-169.compute-1.amazonaws.com/files/5000007/test1.pdf"  
+test2.pdf	"https://ec2-44-202-167-169.compute-1.amazonaws.com/files/5000007/test2.pdf"  
+test3.pdf	"https://ec2-44-202-167-169.compute-1.amazonaws.com/files/5000007/test3.pdf"  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ### UpdateDevice
@@ -80,12 +80,12 @@ https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?UpdateDevice
 Updates device. Parameters(sn=<Serial number of device to update>,manu=<Manufacturer to update to>,type=<Type to update to>,active=<active or deactive>,newsn=<New serial number that device will have upon update>) sn parameter is required as well as at least 1 other parameter. full example of endpoint https://ec2-44-202-167-169.compute-1.amazonaws.com/api/?UpdateDevice&sn=SN-000010c0d5d5c8c69b924fb706d6a24e&manu=Ford&active=deactive
 
 #### JSON output on successful read
-Status	"Success"
-MSG	"Device successfully updated!"
-Serial Number	"SN-000010c0d5d5c8c69b924fb706d6a24e"
-Manufacturer	"Ford"
-Device Type	"vehicle"
-Active?	"Inactive"
+Status	"Success"  
+MSG	"Device successfully updated!"  
+Serial Number	"SN-000010c0d5d5c8c69b924fb706d6a24e"  
+Manufacturer	"Ford"  
+Device Type	"vehicle"  
+Active?	"Inactive"  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ### UploadFile
@@ -95,8 +95,8 @@ Upload file to a device. Parameters(sn=<Serial number of device to recieve file>
 
 #### JSON output on successful read
 {
-    "Status": "Success",
-    "MSG": "Successfully uploaded file test.pdf for device with serial number: SN-000010c0d5d5c8c69b924fb706d6a24e"
+    "Status": "Success",  
+    "MSG": "Successfully uploaded file test.pdf for device with serial number: SN-000010c0d5d5c8c69b924fb706d6a24e"  
 }
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
